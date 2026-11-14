@@ -1,4 +1,5 @@
-// ai-happy-01: copies the bundled happy image to /output/entry.png (byte-identical both runs).
+// ai-happy-01: copies the bundled happy image to /output/entry.png — warm rain, warm hearts.
+// (v2: writeFileSync with the buffer read once; output dir is created if missing.)
 
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { join, dirname } from 'node:path';
